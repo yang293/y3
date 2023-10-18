@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 800px;
+	margin: 0 auto;
+	border: 5px solid dodgerblue;
+	border-radius: 1%;
+}
+.main img{
+	width: 800px;
+	height: 400px
+}
+.nav{
+	margin: 7px auto;
+	width: 800px;
+	background-color: cornflowerblue;
+}
+.nav ol li{
+	list-style: none;
+	display: inline;
+}
+.nav ol li a{
+	display: inline-block;
+	width: 156.2px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	text-decoration: none;
+}
+.nav ol li a:hover{
+	color: black;
+	background-color: aqua;
+}
+.contain{
+	margin: 0 auto;
+	text-align: center;
+}
+.contain textarea{
+	width:500px ;
+	height: 300px;
+	font-size: 14px;
+	border-radius:5px ;
+	margin: 20px 100px;
+ 	background-color: aliceblue;
+}
+.contain button{
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	border: 2px solid aliceblue;
+	cursor: pointer;/* 光标为一只手 */
+	border-radius: 5px;
+	float: right;
+	margin: -65px 25px;
+}
+.contain li a{
+	float: right;
+	text-decoration: none;
+}
+.contain li{
+	text-align: left;
+	list-style: none;
+	width: 500px;
+	padding: 5px;
+	background-color: #eee;
+	font-size: 16px;
+	margin: 15px auto;
+}
+a:hover {
+	color: black;
+	background-color: aquamarine;
+}
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px ;
+	height: 70px;
+	line-height: 30px;
+	background-color: skyblue;
+}
+.footer img{
+	margin: 15px 10px;
+	width: 60px;
+	height: 40px;
+}
+.footer p{
+	width: 600px;
+	font-size: 15px;
+	text-align: center;
+}

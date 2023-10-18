@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 800px;
+	margin: 0 auto;
+	border: 5px solid dodgerblue;
+	border-radius: 1%;
+}
+.main img{
+	width: 800px;
+	height: 400px
+}
+.nav{
+	margin: 7px auto;
+	width: 800px;
+	background-color: cornflowerblue;
+}
+ul li{
+	list-style: none;
+	display: inline;
+}
+.nav ul li a{
+	display: inline-block;
+	width: 156.2px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	color: black;
+	background-color: aqua;
+}
+.ccc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+ .ccc span{
+	margin: 18px;
+	width: 160px;
+	height: 250px;
+	font-size: 14px;
+	text-align: center;
+	border: 5px solid cornflowerblue;
+	border-radius: 20px;
+}
+.ccc span img{
+	margin-top: 10px;
+	width: 120px;
+	height: 200px;
+}
+.c div{
+	margin: 30px;
+}
+.c p{
+	padding: 35px;
+	line-height: 20px;
+}
+.c1 {
+	text-indent: 2em;
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	background-color: aliceblue;
+}
+.c2{
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	
+	text-indent: 2em;
+	background-color: aliceblue;
+}
+.c img{
+	animation:infinite;
+	width: 150px;
+	height: 150px;
+}
+.c img:hover{
+	animation-play-state: paused;
+}
+.cc ul{
+	margin: 18px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+h3{
+	margin: 10px 20px;
+}
+.cc img{
+	width: 250px;
+	height: 180px;
+	margin-top: 10px;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px ;
+	height: 70px;
+	line-height: 30px;
+	background-color: skyblue;
+}
+.footer img{
+	margin: 15px 10px;
+	width: 60px;
+	height: 40px;
+}
+.footer p{
+	width: 600px;
+	font-size: 15px;
+	text-align: center;
+}
+
